@@ -9,8 +9,16 @@ const Footer = () => {
           <p className="text-sm">© 2025 Estate. All rights reserved.</p>
         </div>
         <div className="flex flex-wrap justify-center md:justify-end space-x-6">
-          <a href="/about" className="hover:text-yellow-400 transition duration-300 cursor-pointer">About us</a>
-          <a href="/contact" className="hover:text-yellow-400 transition duration-300 cursor-pointer">Contact us</a>
+          <a href="https://www.linkedin.com/in/namira-anis/" className="hover:text-yellow-400 transition duration-300 cursor-pointer">About us</a>
+
+          {/* This is the important one */}
+          <a 
+            href="mailto:anisnamira@gmail.com"
+            className="hover:text-yellow-400 transition duration-300 cursor-pointer"
+          >
+            Contact us
+          </a>
+
           <a href="/privacy" className="hover:text-yellow-400 transition duration-300 cursor-pointer">Privacy</a>
           <a href="/terms" className="hover:text-yellow-400 transition duration-300 cursor-pointer">Terms</a>
         </div>

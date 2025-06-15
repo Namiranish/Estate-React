@@ -103,12 +103,12 @@ const Filters = () => {
           ))}
         </select>
 
-        <button className="bg-yellow-400 text-black px-5 py-3 rounded-md w-full md:w-auto font-semibold hover:bg-yellow-500 cursor-pointer">
+        <button className="bg-blue-500 text-black px-5 py-3 rounded-md w-full md:w-auto font-semibold hover:bg-blue-600 cursor-pointer">
           Search
         </button>
 
         <button
-          className="bg-green-400 text-black px-5 py-3 rounded-md w-full md:w-auto font-semibold hover:bg-green-500 cursor-pointer mt-4 md:mt-0"
+          className="bg-blue-500 text-black px-5 py-3 rounded-md w-full md:w-auto font-semibold hover:bg-blue-600 cursor-pointer mt-4 md:mt-0"
           onClick={() => setShowFavorites(!showFavorites)}
         >
           {showFavorites

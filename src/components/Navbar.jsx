@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaHome } from "react-icons/fa";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,10 @@ const Navbar = () => {
     <header className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo / Brand */}
-        <h1 className="text-2xl font-bold text-blue-600">Estate</h1>
+        <div className="flex items-center gap-1.5 text-blue-600">
+          <FaHome className="text-2xl" />
+          <h1 className="text-2xl font-bold">Estate</h1>
+        </div>
 
         {/* Action Buttons - Desktop */}
         <div className="hidden md:flex items-center gap-3">

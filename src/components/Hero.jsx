@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import FilterSection from "./FilterSection"; // Updated import
 
 const rotatingWords = ["Apartment", "House", "Villa"];
@@ -49,22 +50,30 @@ const Hero = () => {
         </h1>
       </div>
 
-{/* Floating Social Icons
-      <div className="absolute top-1/2 right-4 transform -translate-y-1/2 space-y-4 z-30">
-        <a href="#" className="block w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white">
-          <i className="fab fa-linkedin-in"></i>
+      {/* Floating Social Icons - Center Right */}
+      <div className="absolute top-90 right-4 transform -translate-y-1/2 space-y-4 z-30">
+        <a
+          href="https://www.linkedin.com/in/namira-anis/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white shadow-md hover:bg-blue-700 transition"
+        >
+          <FaLinkedinIn />
         </a>
-        <a href="#" className="block w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center text-white">
-          <i className="fab fa-facebook-f"></i>
+        <a
+          href="https://github.com/Namiranish"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-white shadow-md hover:bg-gray-900 transition"
+        >
+          <FaGithub />
         </a>
-      </div> */}
+      </div>
 
       {/* Filters Section */}
       <div className="relative z-20 mt-8 px-4 max-w-7xl mx-auto">
         <FilterSection />
       </div>
-
-      
     </section>
   );
 };
