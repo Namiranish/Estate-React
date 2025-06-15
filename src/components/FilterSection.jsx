@@ -113,7 +113,7 @@ const Filters = () => {
         >
           {showFavorites
             ? "View All Properties"
-            : `View Favorites (${likedProperties.length})`}
+            : `Likes♥️ ️(${likedProperties.length})`}
         </button>
       </div>
 

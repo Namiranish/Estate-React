@@ -65,7 +65,11 @@ export const properties = [
     popular: false,
     availableDate: "2025-07-05",
     images: [
-      "https://images.unsplash.com/photo-1560448070-c2e1f1a58d52"
+      "https://estatedekho.s3.ap-south-1.amazonaws.com/images/properties/17005510264735/28671700551044-sahasra-serenity-2-bhk-apartment-in-whitefield-bangalore-17005510264735.png",
+      "https://estatedekho.s3.ap-south-1.amazonaws.com/images/properties/17005510264735/28671700551135-sahasra-serenity-2-bhk-apartment-in-whitefield-bangalore-17005510264735.png",
+      "https://estatedekho.s3.ap-south-1.amazonaws.com/images/properties/17005510264735/28671700551153-sahasra-serenity-2-bhk-apartment-in-whitefield-bangalore-17005510264735.jpg",
+      "https://estatedekho.s3.ap-south-1.amazonaws.com/images/properties/17005510264735/28671700551176-sahasra-serenity-2-bhk-apartment-in-whitefield-bangalore-17005510264735.png",
+      "https://estatedekho.s3.ap-south-1.amazonaws.com/images/properties/17005510264735/28671700551191-sahasra-serenity-2-bhk-apartment-in-whitefield-bangalore-17005510264735.jpg"
     ]
   },
   {
@@ -80,7 +84,9 @@ export const properties = [
     popular: true,
     availableDate: "2025-06-28",
     images: [
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+      "https://regrob.com/media/project/2008/images/project_img_2008_img_2.jpg",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed"
     ]
   },
   {
@@ -95,7 +101,9 @@ export const properties = [
     popular: false,
     availableDate: "2025-07-10",
     images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://www.architectandinteriorsindia.com/cloud/2022/12/13/YJP_RA-47-1536x1024.jpg",
+      "https://images.unsplash.com/photo-1501183638710-841dd1904471"
     ]
   },
   {
@@ -110,7 +118,10 @@ export const properties = [
     popular: true,
     availableDate: "2025-07-15",
     images: [
-      "https://images.unsplash.com/photo-1600607688492-3c6f53c9a8fb"
+      "https://teja12.kuikr.com/is/a/c/880x425/public/images/apartments/original_img/5lnam6.gif",
+      "https://www.architectandinteriorsindia.com/cloud/2022/12/13/YJP_RA-47-1536x1024.jpg",
+      "https://www.architectandinteriorsindia.com/cloud/2022/12/13/YJP_RA-2-900x1200.jpg",
+      "https://www.architectandinteriorsindia.com/cloud/2022/12/13/YJP_RA-5-768x960.jpg"
     ]
   },
   {
